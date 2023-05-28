@@ -1,0 +1,28 @@
+#content_1 {
+    width: 100%;
+    height: 1000px;
+    background-color:honeydew;
+}
+
+#Container_1{
+    background-color: bisque; 
+}
+#Container_2{
+    background-color: white;
+}
+#Container_3{
+    background-color: bisque;
+}
+
+#cardImage_1{
+    width: 18rem;
+    margin-left: 25%;
+}
+#cardImage_2{
+    width: 18rem;
+    margin-left: 50%;
+}
+#cardImage_3{
+    width: 18rem;
+    margin-left: 25%;
+}

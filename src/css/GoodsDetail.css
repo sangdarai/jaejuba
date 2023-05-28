@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "googleNanumGothic";
+    src: url(/assets/font/Nanum_Gothic/NanumGothic-Regular.ttf);
+}
+:root {
+    --font-googleGugi: "NanumGothic";
+	--font-googleSingleDay: "googleNanumGothic";
+}
+
+
+
+
+img{
+    width: 100%;
+}

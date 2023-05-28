@@ -1,0 +1,68 @@
+ #Goodsbody {
+    margin-top: 2%;
+}
+
+#navbar{
+    border-bottom: 3px solid #F5A947;
+}
+
+/*
+#GoodsConstent{
+    position: relative;
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+#Goodslist {
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: none;
+    text-align: left;
+}
+#Goodslist:active{
+    box-shadow: 1px 1px 1px black;
+} */
+
+/* #GoodsListImg {
+    width: 420px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 15px 15px
+  } */
+
+/* #GoodsTitle{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    border-bottom: 1px solid gainsboro;
+
+}
+#GoodsDivision{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-top: 5px;
+
+}
+#GoodsPrice{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+#GoodsEndDate{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+#GoodsSort{
+    width: 300px;
+    padding-bottom: 10px;
+    list-style:none;
+    padding-left:0px;
+} */
