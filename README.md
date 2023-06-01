@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# Jaejuba Project
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white"/> <img src="https://img.shields.io/badge/nginx-009639?style=flat&logo=nginx&logoColor=white"/> <img src="https://img.shields.io/badge/Ubuntu20.04-E95420?style=flat&logo=Ubuntu&logoColor=white"/> <img src="https://img.shields.io/badge/axios-5A29E4?style=flat&logo=axios&logoColor=white"/> <img src="https://img.shields.io/badge/mysql-4479A1?style=flat&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/prometheus-E6522C?style=flat&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/grafana-F46800?style=flat&logo=grafana&logoColor=white"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Jaejuba 소개
+개인의 가치와 개성이 인정받고, 그것이 직업이 되는 세상에서 살고 있는 우리들은 남들이 가지지 못하고 나만이 가지고 있는 독창적인 나만의 가치를 뽐낼 수 있는 무언가가 필요합니다. 그래서 저의 Jaejuba 사이트는 경매 사이트로서 자신만의 아이템, 예술품, 소장품을 더 가치있게 판매할 수 있는 플랫폼입니다.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Jaejuba 이용자
+Jaejuba는 예술 작품과 개인의 애장품을 경매 방식으로 거래할 수 있는 온라인 플랫폼입니다. 예술가들은 자신의 작품을 전시하고 판매할 수 있으며, 인기 있는 공인들은 개인 애장품을 판매하고 팬들과 소통할 수 있는 기회를 얻게 됩니다. 이를 통해 모든 사람들은 자신의 독특한 가치를 발휘하고 인정받을 수 있는 기회를 얻을 수 있습니다. 미술, 공예, 디자인 등을 공부하는 대학생이나 예술을 취미로 즐기는 일반인들에게는 Jaejuba가 자신의 작품을 인정받기가 어려운 상황에서 자신의 작품을 판매하고 인정받을 수 있는 기회를 제공합니다. 또한 연예인, BJ, 스트리머 등의 공인들은 개인 애장품을 판매할 수 있는 콘텐츠를 만들 수 있는 플랫폼을 제공합니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Jaejuba 목표
+Jaejuba는 다양한 예술 형태와 개성적인 아이템들이 모인 온라인 시장으로서, 예술을 사랑하고 고유한 아이템에 관심을 가지는 사람들에게 새로운 경험과 발견의 기회를 제공합니다. 이를 통해 우리 사회를 더 다양하고 창의적인 문화로 가꾸고, 개인의 가치와 개성을 존중하는 사회적 환경을 조성하고자 합니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
