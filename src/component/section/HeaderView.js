@@ -48,11 +48,11 @@ export default function HeaderView(){
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Button variant="link" style={{color:"black", textDecoration:"none", fontWeight:"bold"}} href="#home">소개</Button>
-                            <Button variant="link" style={{color:"black", textDecoration:"none", fontWeight:"bold"}} href="/GoodsView">상품</Button>
-                            <Button variant="link" style={{color:"black", textDecoration:"none", fontWeight:"bold"}} href="/QnAsignup">문의사항</Button>
-                            <Button variant="link" style={{color:"black", textDecoration:"none", fontWeight:"bold"}} href="/Chatbot">챗봇테스트</Button>
-                            <Button variant="link" style={{color:"black", textDecoration:"none", fontWeight:"bold"}} href="/Yutnori">윷놀이</Button>
+                            <Button variant="link" style={{color:"black", textDecoration:"none", fontWeight:"bold"}} href="#home">intro</Button>
+                            <Button variant="link" style={{color:"black", textDecoration:"none", fontWeight:"bold"}} href="/GoodsView">Item</Button>
+                            <Button variant="link" style={{color:"black", textDecoration:"none", fontWeight:"bold"}} href="/QnAsignup">QnaA</Button>
+                            <Button variant="link" style={{color:"black", textDecoration:"none", fontWeight:"bold"}} href="/Chatbot">Chatbot</Button>
+                            <Button variant="link" style={{color:"black", textDecoration:"none", fontWeight:"bold"}} href="/Yutnori">Yutnori</Button>
                             <Button variant="link" href="/AddGoods"  style={{visibility:getInsertGoods, color:"black", textDecoration:"none", fontWeight:"bold"}}>물건등록</Button>
                         </Nav>
                         <Nav >

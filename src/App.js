@@ -15,6 +15,7 @@ import QnAGoodsAdd from './component/Q&A/QnAGoodsAdd';
 import ADMINPage from './component/Admin/ADMINPage';
 import Chatbot from './component/Chatbot/Chatbot';
 import Yutnori from './component/Unity/Yutnori';
+import Intro from './component/Main/Intro';
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -25,7 +26,7 @@ function App() {
         <div className="App">
           {/* <HeaderView /> */}
               <Routes>   
-                <Route path={"/"}  element={<GoodsView />} />    {/* 메인페이지 */}
+                <Route path={"/"}  element={<Intro />} />    {/* 메인페이지 */}
                 <Route path={"/Login"} element={<Login />} />    {/* 로그인페이지 */}
                 <Route path={"/SignUp"} element={<SignUp />} />    {/* 회원가입페이지 */}
                 <Route path={"/AddGoods"} element={<AddGoods />} />

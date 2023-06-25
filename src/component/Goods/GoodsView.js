@@ -45,23 +45,23 @@ export default function GoodsView(props){
         const tItem = {titleserchitem: getSerchTitle}
 
         if(getSerchSelect == "" && getSerchTitle == ""){
-           const response = await API.post("https://www.jaejuba.com:4000/Goods/GoodsInfo")
+           const response = await API.get("/Goods/GoodsInfo")
            console.log(response)
            serchread(response);
         } else if(getSerchSelect != "전체" && getSerchTitle == ""){
-           const response = await API.post("/Goods/GoodsInfo/serch/select", sItem)    
+           const response = await API.get("/Goods/GoodsInfo/serch/select", sItem)    
            serchread(response);
         } else if(getSerchSelect == "전체" && getSerchTitle != ""){
-            const response = await API.post("/Goods/GoodsInfo/serch/title", tItem)    
+            const response = await API.get("/Goods/GoodsInfo/serch/title", tItem)    
             serchread(response);
          } else if(getSerchSelect != "전체" && getSerchTitle != ""){
-            const response = await API.post("/Goods/GoodsInfo/serch/title&select", serchItem)    
+            const response = await API.get("/Goods/GoodsInfo/serch/title&select", serchItem)    
             serchread(response);
          }else if(getSerchSelect == "전체" && getSerchTitle == ""){
-            const response = await API.post("/Goods/GoodsInfo") 
+            const response = await API.get("/Goods/GoodsInfo") 
             serchread(response);
          } else if ( getGoodsItem.length == 1){
-            const response = await API.post("/Goods/GoodsInfo")
+            const response = await API.get("/Goods/GoodsInfo")
             serchread(response);
          }
     }

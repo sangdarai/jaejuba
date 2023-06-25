@@ -3,7 +3,7 @@ import FooterView from "../section/FooterView";
 import "../../css/AddGoods.css";
 import React, {useEffect, useState } from "react";
 import API from "../../API";
-import icon from "../icon/GoodTileImg.png"
+import icon from "../../icon/GoodTileImg.png"
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import {ko} from 'date-fns/esm/locale';
