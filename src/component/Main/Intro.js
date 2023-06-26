@@ -67,7 +67,7 @@ export default function Intro(){
                     <Image  src={charge} />
                 </Row>
                 <Row>
-                    <p>Hot</p>
+                    <p>Hot Manu</p>
                 </Row>
                 <Row xs={1} md={2}>
                     <Col>
