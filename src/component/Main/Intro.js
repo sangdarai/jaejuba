@@ -101,12 +101,12 @@ export default function Intro(){
                                     </Col>
                                 )
                             }
-                        })}              
+                        })}
                 </Row>
             </Container>
-                <Row>
+                {/* <Row>
                     <Image  src={ActionLoad} style={{ marginTop:"1em"}}/>
-                </Row>
+                </Row> */}
             <FooterView />
         </Container>
     )
