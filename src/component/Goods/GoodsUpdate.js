@@ -113,7 +113,7 @@ export default function GoodsUpdate(){
         const imgaeFile = e.target.files[0];
         try{
             const option = {
-                maxSizeMb : 2,
+                maxSizeMb : 1,
             }
             const compressedFile =  await imageCompression(imgaeFile, option);
             const formdata = new FormData();
@@ -130,7 +130,7 @@ export default function GoodsUpdate(){
     const onUploadImage = async (blob, callback ) => {
         try{
             const option = {
-                maxSizeMb : 2,
+                maxSizeMb : 1,
             }
             const compressedFile =  await imageCompression(blob, option);
             const formData = new FormData();

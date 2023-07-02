@@ -60,7 +60,7 @@ export default function AddGoods(){
         const imgaeFile = e.target.files[0];
         try{
             const option = {
-                maxSizeMb : 2,
+                maxSizeMb : 1,
             }
             const compressedFile =  await imageCompression(imgaeFile, option);
             const formdata = new FormData();
@@ -120,7 +120,7 @@ export default function AddGoods(){
         const imgFile = blob;
         try{
             const option = {
-                maxSizeMb : 2,
+                maxSizeMb : 1,
             }
             const compressedFile =  await imageCompression(imgFile, option);
             const formData = new FormData();
